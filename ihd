@@ -1,0 +1,12 @@
+ilksayi = int(input("ilk sayıyı giriniz: "))
+ikincisayi = int(input("ikinci sayıyı giriniz: "))
+islem = input("""yapmak istediğiniz işlemi giriniz.
+(toplama: +, Çıkarma: -, Çarpma:*, bölme: /) """)
+if islem =="+":
+    print("sonuç: "+ str(ilksayi+ikincisayi))
+elif islem =="-":
+    print("sonuç: " + str(ilksayi-ikincisayi))
+elif islem =="*":
+    print("sonuç: " + str(ilksayi*ikincisayi))
+elif islem =="/":
+    print("sonuç: " + str(ilksayi/ikincisayi))
